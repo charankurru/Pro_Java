@@ -15,7 +15,7 @@ public class ArraysClassEx {
 
         // Array of type INTEGER class.
         Integer numbers[] = new Integer[] { 5, 6, 1, 2, 3, 4 };
-        Character chararray[] = new Character[] { 'a', 'b', 'c', 'd', 'e', 'f' };
+        // Character chararray[] = new Character[] { 'a', 'b', 'c', 'd', 'e', 'f' };
 
         // Converting integer array to list
         List<Integer> l1 = Arrays.asList(numbers);
