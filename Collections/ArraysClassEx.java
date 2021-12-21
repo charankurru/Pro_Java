@@ -42,7 +42,8 @@ public class ArraysClassEx {
         // Comparing two arrays
         Integer arr1[] = new Integer[] { 99, 33, 11, 25 };
         Integer arr2[] = new Integer[] { 88, 44 };
-        System.out.println("Integer arrays on comparision" + Arrays.compare(arr1, arr2));
+        // System.out.println("Integer arrays on comparision" + Arrays.compare(arr1,
+        // arr2));
 
         // CopyOf method to fill the array or trim the array over specified lenght
         Integer arr3[] = Arrays.copyOf(arr1, 2);
