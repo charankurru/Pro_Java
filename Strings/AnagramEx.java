@@ -1,14 +1,16 @@
 package java_progs.Strings;
 
-import java.io.*;
 import java.util.*;
 
 public class AnagramEx {
     public static void main(String args[]) {
         System.out.println("hello charan");
         String s = "listen";
-        String s2 = "violent";
-
+        String s2 = "silent";
+        if (s.length() != s2.length()) {
+            System.out.println("Not anagrams");
+            return;
+        }
         HashMap<Character, Integer> mp = new HashMap<>();
         for (int i = 0; i < s.length(); i++)
             mp.put(s.charAt(i), mp.getOrDefault(s.charAt(i), 0) + 1);

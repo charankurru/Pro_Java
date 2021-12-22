@@ -1,4 +1,4 @@
-package java_progs.Collections;
+package java_progs.Collections.Set;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package java_progs.Collections;
+package java_progs.Collections.Set;
 
 import java.util.*;
 
@@ -29,6 +29,21 @@ public class HashSetEx {
         // To remove all elements from the set
         set.removeAll(set);
         Display(set);
+        HashSet<Integer> set1 = new HashSet<Integer>();
+        set1.add(20);
+        set1.add(1);
+        set1.add(22);
+        set1.add(999);
+        set1.add(-1);
+        set1.add(2);
+        set1.add(3);
+        set1.add(7);
+        set1.add(4);
+        System.out.println(set1);
+        Integer obj = new Integer(12);
+        Integer obj2 = new Integer(12);
+        System.out.println(obj2.hashCode());
+        System.out.println(obj.hashCode());
 
     }
 }
