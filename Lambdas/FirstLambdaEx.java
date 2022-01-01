@@ -1,4 +1,4 @@
-package java_progs;
+package java_progs.Lambdas;
 
 interface mylambda {
     public void foo();
@@ -8,7 +8,17 @@ interface MathOperation {
     public int domath(int a, int b);
 }
 
-public class FirstProg {
+interface NewYear {
+    default void testday() {
+        System.out.println("Today is 01/01/2022");
+    }
+}
+
+class TestNew implements NewYear {
+
+}
+
+public class FirstLambdaEx {
 
     public static void hello(mylambda greet) {
         greet.foo();
@@ -32,6 +42,9 @@ public class FirstProg {
         System.out.println("Sub of 2-1 is : " + calculate(2, 1, sub));
         System.out.println("Mul of 2*2, is: " + calculate(2, 2, mul));
         System.out.println("Div of 8/4 is : " + calculate(8, 4, div));
+
+        TestNew testnew = new TestNew();
+        testnew.testday();
 
     }
 }

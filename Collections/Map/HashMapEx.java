@@ -4,6 +4,7 @@ import java.util.*;
 
 public class HashMapEx {
     public static void main(String[] args) {
+
         HashMap<Integer, String> map = new HashMap<Integer, String>();
         map.put(1, "charan");
         map.put(2, "cherry");

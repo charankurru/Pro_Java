@@ -40,10 +40,10 @@ public class HashSetEx {
         set1.add(7);
         set1.add(4);
         System.out.println(set1);
-        Integer obj = new Integer(12);
-        Integer obj2 = new Integer(12);
-        System.out.println(obj2.hashCode());
-        System.out.println(obj.hashCode());
+        // Integer obj = new Integer(12);
+        // Integer obj2 = new Integer(12);
+        // System.out.println(obj2.hashCode());
+        // System.out.println(obj.hashCode());
 
     }
 }
