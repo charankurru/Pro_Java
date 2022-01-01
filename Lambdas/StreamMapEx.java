@@ -14,6 +14,11 @@ public class StreamMapEx {
         };
 
         List<Integer> Mappednums = nums.stream().map(num -> num * num).collect(Collectors.toList());
+
+        long count = nums.stream().filter(num -> num % 2 == 0).count();
+
+        System.out.println(count);
+
         System.out.println(Mappednums);
     }
 
