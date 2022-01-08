@@ -1,0 +1,14 @@
+Exception handling is used when the frequency of occurance of an exception cannot be predicted.
+
+==>real world examples:
+
+   1) you provide a web form for users to fill in and submit.but incase there are a lot of conditions to be handled and the conditions keeps changing periodically,you use exception handling to simplify the process
+
+   2) database connectivity uses exception handling(why???) this is because the reason for database connectivity failure cannot be predicted and handled as it can be caused by many variables 
+    such as power failure, unreachable server,failure at client front/back end and so on.
+
+   3) internet communication
+
+   4) arithmetic exceptions such as division by zero and so on.
+
+   5) operating systems use exception handling to resolve deadlocks,recover from crash and so forth
