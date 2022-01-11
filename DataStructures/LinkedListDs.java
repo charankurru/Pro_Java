@@ -10,10 +10,10 @@ class Node {
     }
 }
 
-class LinkedList {
+class LinkedListEx {
     Node head;
 
-    LinkedList(Node start) {
+    LinkedListEx(Node start) {
         this.head = start;
     }
 
@@ -48,7 +48,7 @@ public class LinkedListDs {
         Node node3 = new Node(3);
         Node node4 = new Node(4);
         Node node5 = new Node(5);
-        LinkedList lst = new LinkedList(node1);
+        LinkedListEx lst = new LinkedListEx(node1);
         lst.addFront(node2);
         lst.addFront(node3);
         lst.addLast(node4);

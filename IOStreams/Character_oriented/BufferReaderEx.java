@@ -14,5 +14,12 @@ public class BufferReaderEx {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
+        System.out.println("Enter your name please");
+        String name = br.readLine();
+        System.out.println(name);
+
     }
 }
