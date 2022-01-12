@@ -1,4 +1,4 @@
-package java_progs;
+package java_progs.bulbs;
 
 interface mylambda {
     public void foo();
