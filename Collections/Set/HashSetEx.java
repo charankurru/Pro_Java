@@ -44,6 +44,8 @@ public class HashSetEx {
         // Integer obj2 = new Integer(12);
         // System.out.println(obj2.hashCode());
         // System.out.println(obj.hashCode());
-
+        if (set1.contains(1)) {
+            System.out.println("present");
+        }
     }
 }

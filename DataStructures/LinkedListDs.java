@@ -1,37 +1,37 @@
 package java_progs.DataStructures;
 
-class Node {
+class Nod {
     int data;
-    Node next;
+    Nod next;
 
-    Node(int ele) {
+    Nod(int ele) {
         this.data = ele;
         next = null;
     }
 }
 
 class LinkedListEx {
-    Node head;
+    Nod head;
 
-    LinkedListEx(Node start) {
+    LinkedListEx(Nod start) {
         this.head = start;
     }
 
-    void addFront(Node node) {
-        node.next = head;
-        head = node;
+    void addFront(Nod Nod) {
+        Nod.next = head;
+        head = Nod;
     }
 
-    void addLast(Node node) {
-        Node ptr = this.head;
+    void addLast(Nod Nod) {
+        Nod ptr = this.head;
         while (ptr.next != null) {
             ptr = ptr.next;
         }
-        ptr.next = node;
+        ptr.next = Nod;
     }
 
     void display() {
-        Node ptr = this.head;
+        Nod ptr = this.head;
         while (ptr != null) {
             System.out.print(ptr.data + " ");
             ptr = ptr.next;
@@ -43,16 +43,16 @@ class LinkedListEx {
 
 public class LinkedListDs {
     public static void main(String[] args) throws Exception {
-        Node node1 = new Node(1);
-        Node node2 = new Node(2);
-        Node node3 = new Node(3);
-        Node node4 = new Node(4);
-        Node node5 = new Node(5);
-        LinkedListEx lst = new LinkedListEx(node1);
-        lst.addFront(node2);
-        lst.addFront(node3);
-        lst.addLast(node4);
-        lst.addLast(node5);
+        Nod Nod1 = new Nod(1);
+        Nod Nod2 = new Nod(2);
+        Nod Nod3 = new Nod(3);
+        Nod Nod4 = new Nod(4);
+        Nod Nod5 = new Nod(5);
+        LinkedListEx lst = new LinkedListEx(Nod1);
+        lst.addFront(Nod2);
+        lst.addFront(Nod3);
+        lst.addLast(Nod4);
+        lst.addLast(Nod5);
         lst.display();
 
     }

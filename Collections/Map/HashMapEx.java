@@ -25,6 +25,10 @@ public class HashMapEx {
             System.out.println(key + " " + map.get(key));
         }
 
+        if (!map.containsKey(1)) {
+            System.out.println("one not present in the map");
+        }
+
         // IMP methods
         /**
          * put(key,val) ==> used to insert (key,value) pairs into the map
@@ -42,6 +46,7 @@ public class HashMapEx {
          * boolean contentsValue(value) ==> checks whether value is present in the or
          * Not
          *
+         * 
          */
 
     }
