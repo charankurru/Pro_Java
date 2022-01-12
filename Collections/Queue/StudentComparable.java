@@ -12,7 +12,7 @@ public class StudentComparable implements Comparable<StudentComparable> {
     public int compareTo(StudentComparable sobj) {
         if (age == sobj.age)
             return 0;
-        else if (age > sobj.age)
+        else if (age < sobj.age)
             return 1;
         return -1;
     }
