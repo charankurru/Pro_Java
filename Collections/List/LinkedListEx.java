@@ -44,6 +44,8 @@ class LinkedListEx {
 
         display(ll);
 
+        System.out.println(ll.removeFirst());
+
     }
 
 }

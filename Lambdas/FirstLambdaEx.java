@@ -33,12 +33,12 @@ public class FirstLambdaEx {
         mylambda greet = () -> System.out.println("I am Lambda !!");
         hello(greet);
 
-        MathOperation add = (int a, int b) -> a + b;
+        // MathOperation add = ;
         MathOperation sub = (int a, int b) -> a - b;
         MathOperation mul = (int a, int b) -> a * b;
         MathOperation div = (int a, int b) -> a / b;
 
-        System.out.println("Add of 1+2 is : " + calculate(1, 2, add));
+        System.out.println("Add of 1+2 is : " + calculate(1, 2, (int a, int b) -> a + b));
         System.out.println("Sub of 2-1 is : " + calculate(2, 1, sub));
         System.out.println("Mul of 2*2, is: " + calculate(2, 2, mul));
         System.out.println("Div of 8/4 is : " + calculate(8, 4, div));
