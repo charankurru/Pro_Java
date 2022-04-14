@@ -1,12 +1,12 @@
 package java_progs.Strings;
 
 import java.util.*;
-
 public class AnagramEx {
     public static void main(String args[]) {
         System.out.println("hello charan");
         String s = "listen";
         String s2 = "silent";
+        System.out.println(StringUtils.isEmpty(s2));
         if (s.length() != s2.length()) {
             System.out.println("Not anagrams");
             return;
